@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        .navigation {
+            /* margin-top: 10px; */
+
+            /* padding: 15px; */
+            text-decoration: none;
+            /* background-color: black; */
+            color: white;
+            background-color: darkslategray;
+            padding: 15px;
+            margin-right: 65px
+        }
+
+        #nav {
+            padding: 10px;
+            margin: 0px;
+            background-color: black;
+
+        }
+
+        .navigation:hover {
+            background-color: darksalmon;
+            padding: 20px;
+        }
+
+        .picbox {
+            /* border: 2px solid red; */
+            width: 100%;
+            background-image: url(/image.jpeg);
+            background-size: cover;
+            height: 600px;
+            opacity: .8;
+            position: relative;
+        }
+
+        #button {
+            /* margin-left: 170px; */
+            padding: 5px;
+
+        }
+
+        #myphoto {
+            height: 21px;
+            width: 35px;
+            margin-left: 140px;
+            margin-right: 10px;
+
+        }
+
+        #name {
+            font-family: cursive;
+            font-weight: 800;
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: 50%;
+            margin-left: 720px;
+        }
+
+        #pheading {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 2rem;
+            margin-right: 40px;
+            font-family: cursive;
+            color: rgb(48, 173, 173)
+        }
+
+        #ppheading {
+            text-align: center;
+            font-size: 1.5rem;
+            color: darkslategrey;
+        }
+
+        hr {
+            color: darkslategray;
+        }
+
+        #box-1 {
+            margin-left: 200px;
+            display: flex;
+            flex-direction: row;
+            margin-right: 200px;
+
+        }
+
+        #priyu {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            margin-top: 100px;
+            margin-right: 30px;
+        }
+
+        .divison {
+            /* display: inline-block; */
+            margin-right: 30px;
+        }
+
+        span {
+            font-size: 1.5rem;
+        }
+
+        #sec-m-div {
+            width: 100%;
+            height: 600px;
+            background-color: rgb(234, 243, 243);
+        }
+
+        #p2heading {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #quote1 {
+            color: rgb(33, 59, 59);
+            font-family: cursive;
+            text-align: center;
+
+        }
+
+        .education {
+            height: 437px;
+            width: 923px;
+            margin-left: 179px;
+            /* border: 2px solid red; */
+        }
+
+        .hcs2 {
+            height: 120px;
+            width: 346px;
+            border-radius: 50%;
+            margin-top: 25px;
+            margin-left: 60px;
+        }
+
+        .place {
+            display: flex;
+            flex-direction: row;
+            color: indigo;
+            margin: opx;
+            padding: opx;
+        }
+
+        .sheading {
+            font-family: monospace;
+            font-size: 22px;
+            color: teal;
+            margin: opx;
+            padding: opx;
+            display: flex;
+        }
+
+        .ssheading {
+            font-family: cursive;
+            font-size: 17px;
+            color: slategray;
+
+        }
+
+        .footer {
+            /* position: fixed; */
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color:rgb(238, 209, 213);
+            color: black;
+            text-align: center;
+            font-size: 20px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <nav>
+            <a href="http://127.0.0.1:5500/index.html" class="navigation">HOME</a>
+            <a href="http://127.0.0.1:5500/about.html" class="navigation">ABOUT ME</a>
+            <a href="http://127.0.0.1:5500/queries.html" class="navigation">QUERIES</a>
+            <a href="http://127.0.0.1:5500/images.html" class="navigation">MY IMAGES</a>
+            <a href="http://127.0.0.1:5500/contact.html" class="navigation">CONTACT ME</a>
+            <img src="/pp.jpg" alt="my photo" id="myphoto">
+            <button id="button">CLICK HERE TO LIKE MY PAGE</button>
+        </nav>
+    </div>
+    <div class="picbox">
+
+        <span id="name">Priyanshu Raj &#128516<br>
+            Welcome to My Website
+        </span>
+    </div>
+    <h2 id="pheading">Profile</h2>
+    <p id="ppheading">I am a Complete CS Developer</p>
+    <hr>
+    <div id="box-1">
+        <div class="divison">
+
+            <h2 id="pheading">About Me</h2>
+            <span>I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques.
+                I love structure and order and I also stand for quality. I love spending time on fixing little details
+                and optimizing web apps. Also I like working in a team, you'll learn faster and much more. As the saying
+                goes: 'two heads are better than one'.</span>
+        </div>
+        <div class="divison">
+            <img src="/pp.jpg" id="priyu">
+        </div>
+        <div class="divison">
+
+            <h2 id="pheading">Details</h2>
+            <span>Name : Priyanshu Raj <br>
+                Age: 19 years<br>
+                Location: Hostel - sardar patel hostel
+                MNNIT , Allahabad (Prayagraj)</span>
+        </div>
+
+    </div>
+    <div id="sec-m-div">
+        <div>
+            <div id="mag1">
+                <h2 id="pheading">Experiences</h2>
+
+            </div>
+            <h3 id="quote1">“Protons give an atom its identity, electrons its personality.”<br>
+                - Bill Bryson, A short history of nearly everything</h3>
+            <hr>
+
+        </div>
+        <div class="education">
+            <div class="place">
+                <h3 class="sheading">
+                    -: Primary Education :-
+                    <br> &nbsp &nbsp2006-2018
+                </h3>
+                <h4 class="ssheading">&nbsp &nbsp &nbsp Holy Cross SChool<br> &nbsp &nbsp &nbsp &nbsp Bokaro Steel City
+                </h4>
+                <br>
+
+                <!-- <h5 class="address">&nbsp &nbsp &nbsp &nbsp Bokaro Steel City</h5> -->
+                <img src="/hcs2.jpg" class="hcs2">
+
+            </div>
+            <div class="place">
+                <h3 class="sheading">
+                    -: Secondary Education :-
+                    <br>&nbsp &nbsp 2019-2020
+                </h3>
+                <h4 class="ssheading">&nbsp &nbsp &nbsp Holy Cross SChool <br>&nbsp &nbsp &nbsp &nbsp Bokaro Steel City
+                </h4>
+                <br>
+                <!-- <h5 class="address">&nbsp &nbsp &nbsp &nbsp Balidih , Bokaro Steel City</h5> -->
+                <img src="/hcs.jpg" class="hcs2">
+
+            </div>
+            <div class="place">
+                <h3 class="sheading">
+                    -: Graduation :-
+                    <br>&nbsp &nbsp 2020-2024
+                </h3>
+                <h4 class="ssheading">&nbsp &nbsp &nbsp Motilal Nehru National Institute <br>&nbsp &nbsp &nbsp &nbsp
+                    &nbsp &nbsp &nbsp &nbspof Technology <br>&nbsp &nbsp &nbsp &nbsp Prayagraj , Uttar Pradesh </h4>
+                <br>
+                <!-- <h5 class="address">&nbsp &nbsp &nbsp &nbsp Prayagraj , Uttar Pradesh</h5> -->
+                <img src="/mnnit.jpeg" class="hcs2">
+
+            </div>
+
+        </div>
+        <div class="footer">
+            <p>Thank you by Priyanshu Raj © Copyright<br>
+                “If I had asked people what they wanted, they would have said faster horses. ”<br>
+                - Henry Ford</p>
+        </div>
+        <script>
+            const action=document.getElementById('button')
+        </script>
+
+</body>
+
+</html>
